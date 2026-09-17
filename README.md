@@ -1,4 +1,4 @@
-# E-Commerce Product Data Extraction & Price Monitoring
+ E-Commerce Product Data Extraction & Price Monitoring
 
 A Python-based automation project that extracts e-commerce product data, tracks previous prices, detects price changes, and generates a formatted Excel report.
 
@@ -25,13 +25,7 @@ A Python-based automation project that extracts e-commerce product data, tracks 
 
 ## Data Flow
 
-Website
-→ Playwright
-→ BeautifulSoup
-→ Data Extraction
-→ Pandas
-→ Price Comparison
-→ Excel Report
+Website → Playwright → BeautifulSoup → Data Extraction → Pandas → Price Comparison → Excel Report
 
 ## Project Structure
 
@@ -43,7 +37,6 @@ ecommerce-price-monitor/
 ├── parser.py
 ├── requirements.txt
 └── README.md
-
 Installation
 
 Install the required Python packages:
@@ -76,6 +69,6 @@ Scheduled execution
 Database storage
 Email notifications
 Dashboard integration
-Author
 
+Author
 Muhammad Saad
